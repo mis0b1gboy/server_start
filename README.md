@@ -9,5 +9,5 @@ Ubuntu 16.04 server setup script - updates system, installs nginx, and gets http
   
   $ ./start.sh
 
-If username is not ubuntu 
+If username is not ubuntu, 
 change ubuntu on line 1 to your username
