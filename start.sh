@@ -8,3 +8,4 @@ sudo DEBIAN_FRONTEND=noninteractive apt-get install nginx python-certbot-nginx p
 sudo mv nginx.conf /etc/nginx/nginx.conf
 sudo nginx
 sudo certbot -n --nginx --redirect --rsa-key-size 2048 --agree-tos --email Jons-tech-support@pm.me --no-eff-email -d jonstechsupport.com
+sudo cp cert-renew.sh /etc/cron.weekly
