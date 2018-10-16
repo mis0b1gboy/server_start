@@ -7,6 +7,8 @@ Ubuntu 16.04 server setup script - updates system, installs nginx, and gets http
   
   $ cd server_start
   
+  $ chmod +x start.sh
+  
   $ ./start.sh
 
 If username is not ubuntu, 
