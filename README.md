@@ -13,4 +13,4 @@ If your username is not "ubuntu" you will have to edit .conf files
   
   $ ./start.sh
 
-Or if your lazy just use this one liner - git clone https://github.com/mis0b1gboy/server_start.git && cd server_start && chmod +x start.sh && bash start.sh
+Or if your lazy just use this one liner ;) - git clone https://github.com/mis0b1gboy/server_start.git && cd server_start && chmod +x start.sh && bash start.sh
