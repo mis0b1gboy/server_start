@@ -2,6 +2,8 @@
 
 Ubuntu 16.04 server setup script - updates system, installs apache2, and gets https through EFF cerbot
 
+If your username is not "ubuntu" you will have to edit .conf files
+
 # install
   $ git clone https://github.com/mis0b1gboy/server_start.git
   
@@ -10,4 +12,4 @@ Ubuntu 16.04 server setup script - updates system, installs apache2, and gets ht
   $ chmod +x start.sh
   
   $ ./start.sh
-If your username is not "ubuntu" you will have to edit .conf files
+
