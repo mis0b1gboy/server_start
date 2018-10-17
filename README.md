@@ -1,6 +1,6 @@
 # server_start
 
-Ubuntu 16.04 server setup script - updates system, installs apache2, and gets https through EFF cerbot
+Ubuntu 16.04 server setup script - updates system, installs apache2, and gets https through EFF cerbot, hardens server, mod-security (has files from for mod-security rules https://github.com/SpiderLabs/owasp-modsecurity-crs)
 
 If your username is not "ubuntu" you will have to edit .conf files
 
