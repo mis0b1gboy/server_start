@@ -29,6 +29,7 @@ for f in * ; do sudo ln -s /etc/modsecurity/base_rules/$f /etc/modsecurity/activ
 cd /etc/modsecurity/optional_rules
 for f in * ; do sudo ln -s /etc/modsecurity/optional_rules/$f /etc/modsecurity/activated_rules/$f ; done 
 
+cd ~/server_start
 sudo service apache2 restart
 sudo sysctl -p
 sudo certbot -n --apache --redirect --rsa-key-size 2048 --agree-tos --email Jons-tech-support@pm.me --no-eff-email -d jonstechsupport.com
